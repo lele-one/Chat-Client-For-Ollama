@@ -1,0 +1,30 @@
+ChatClientForOllama
+Introduction
+  ChatClientForOllamaisadesktopapplicationbuiltwithJavaSwing,designedtointeractwithmodelsavailableonOllama(suchasAlibabaqwen2:7b,MetaLlama3:8b,etc.).Theapplicationfeaturesasimplegraphicaluserinterfacethatallowsuserstoselectdifferentmodels,inputtext,andreceiveresponsesfromtheselectedmodel.
+项目介绍
+  ChatClientForOllama是一个基于JavaSwing的桌面应用程序，旨在与Ollama上的模型（如阿里巴巴qwen2:7b，MetaLlama3:8b等）进行交互。该应用程序具有简单的图形用户界面，允许用户选择不同的模型，输入文本，并接收来自所选模型的响应。
+Features功能
+  1.ModelSelection模型选择:Userscanswitchbetweendifferentmodels,includingAlibabaqwen2:7b,MetaLlama3:8b,Microsoftphi3:14b,andmore.
+  用户可以在不同的模型之间切换，包括阿里巴巴qwen2:7b，MetaLlama3:8b，微软phi3:14b等。
+  2.SendMessages发送消息:Userscaninputtextintheinputboxandsendmessagesbyclickingthe"Send"button.
+  用户可以在输入框中输入文本，并通过点击“发送”按钮发送消息。
+  3.CopyLastMessage复制最后一条消息:Userscanclickthe"CopyLast"buttontocopythelastresponsefromthemodeltotheclipboard.
+  用户可以点击“复制最后一条”按钮，将最后一次模型响应复制到剪贴板。
+  4.PauseandResume暂停和继续:Userscanpausereceivingresponsesfromthemodelbyclickingthe"Pause"button.Clickingitagainwillresumeandcontinuereceivingresponses.
+  用户可以通过点击“暂停”按钮暂停接收模型的响应，再次点击可以恢复并继续接收响应。
+UsageInstructions使用说明
+  1.InstallOllama安装Ollama:EnsurethatOllamaisinstalledonyoursystem.
+  请确保您的系统上已安装Ollama。
+  2.InstallModels安装模型:InstallandconfigurethedesiredOllamamodelsyouwishtorunlocally.Ifthecodedoesnotcontainthismodel,pleasemodifythecodeaccordingly.
+  安装并配置您希望在本地运行的Ollama模型。如果代码中没有该模型，请修改代码以匹配您安装的模型。
+  3.RuntheProgram运行程序:LaunchChatClientForOllama,selectamodel,inputyourquery,andsendthemessagetostartinteractingwiththemodel.
+  启动ChatClientForOllama，选择一个模型，输入您的问题并发送消息，开始与模型互动。
+InterfaceDesign界面设计
+  TextArea文本区域:Displaysthechathistory,includingbothuserinputsandmodelresponses.
+  显示聊天历史记录，包括用户输入和模型响应。
+  InputBox输入框:Atextareawhereuserscaninputtheirtext.Shift+Entercanbeusedforanewline.
+  用户可以输入文本的区域。按Shift+Enter可以换行。
+  ButtonPanel按钮面板:Contains"Send","CopyLast","Pause"buttons,andamodelselectiondropdownmenu.
+  包含“发送”、“复制最后一条”、“暂停”按钮和模型选择下拉菜单。
+Withthesefeatures,ChatClientForOllamaprovidesaneasytouseplatformforuserstoseamlesslyinteractwithvariousmodelsonOllama.
+通过这些功能，ChatClientForOllama为用户提供了一个易于使用的平台，能够无缝地与Ollama上的各种模型进行互动。
